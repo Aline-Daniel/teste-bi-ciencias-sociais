@@ -21,9 +21,8 @@ Como diferencial técnico e visando a melhor experiência de usuário (UX) para 
 
 1. Clone o repositório para a sua máquina.
 2. Certifique-se de ter o Python instalado e execute o script de ETL para processar os arquivos CSV e recriar o banco de dados:
-   Bash
-   
-   python etl_script.py
+3. Bash
+4. python etl_script.py
 
    
 🧠 Decisões Técnicas
