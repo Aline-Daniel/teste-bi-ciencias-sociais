@@ -26,6 +26,7 @@ Como diferencial técnico e visando a melhor experiência de usuário (UX) para 
 
    
 🧠 Decisões Técnicas
+
 Normalização: O script Python trata inconsistências como números com vírgulas decimais e múltiplos ISSNs por periódico.
 
 Performance: A criação de uma VIEW unificada em SQL permite consultas rápidas cruzando dados nacionais e internacionais sem redundância.
