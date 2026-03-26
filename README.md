@@ -23,3 +23,12 @@ Como diferencial técnico e visando a melhor experiência de usuário (UX) para 
 2. Certifique-se de ter o Python instalado e execute o script de ETL para processar os arquivos CSV e recriar o banco de dados:
    ```bash
    python etl_script.py
+
+   🧠 Decisões Técnicas
+Normalização: O script Python trata inconsistências como números com vírgulas decimais e múltiplos ISSNs por periódico.
+
+Performance: A criação de uma VIEW unificada em SQL permite consultas rápidas cruzando dados nacionais e internacionais sem redundância.
+
+Diferencial: Além dos dados brutos, a entrega inclui uma aplicação web moderna para facilitar a leitura dos indicadores pela coordenação.
+
+Desenvolvido por: Aline Daniel
